@@ -100,7 +100,7 @@ def process_paths_with_headings(paths: List[str], issues_dict: Dict[str, int]) -
 
 def main() -> None:
     """Main function to execute the PDF text extraction and processing."""
-    parser = argparse.ArgumentParser(description="A tool to process PDF reports.")
+    parser = argparse.ArgumentParser(description="A tool to process Fortify SCA SAST PDF reports.")
     parser.add_argument("pdf_path", type=str, help="Path to the PDF file")
     parser.add_argument("output_path", type=str, help="Output file to save processed data")
 
