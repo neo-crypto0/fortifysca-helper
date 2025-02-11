@@ -1,5 +1,4 @@
 # fortifysca-helper
-# fortifysca-helper
 
 ## Description
 
